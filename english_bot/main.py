@@ -1,5 +1,5 @@
 """
-Bu google xola bot. Bu botdan gaplaringizni tarjima qilishda foydalaning.
+Salom! Bu google xola bot. Bu botdan gaplaringizni tarjima qilishda foydalaning.
 Inglizcha so'zlaringizni audio variantini izlang!!!
 """
 
