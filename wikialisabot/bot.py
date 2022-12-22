@@ -1,5 +1,5 @@
 """
-WikiAlisa bot. Siz qidirgan so'zlarni izlab topadi. Qani izlab ko'ringchi bo'tram!!!
+WikiAlisa bot. Siz qidirgan so'zlarni izlab topadi. Qani izlab ko'ringchi bo'tam!!!
 """
 
 import logging
