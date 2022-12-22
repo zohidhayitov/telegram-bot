@@ -1,6 +1,5 @@
 """
-This is a echo bot.
-It echoes any incoming text messages.
+WikiAlisa bot. Siz qidirgan so'zlarni izlab topadi. Qani izlab ko'ringchi bo'tram!!!
 """
 
 import logging
@@ -21,9 +20,7 @@ dp = Dispatcher(bot)
 
 @dp.message_handler(commands=['start', 'help'])
 async def send_welcome(message: types.Message):
-    """
-    This handler will be called when user sends `/start` or `/help` command
-    """
+
     await message.reply("Wikialisa Botiga xush kelibsiz!!!")
 
 
