@@ -1,6 +1,6 @@
 """
-This is a echo bot.
-It echoes any incoming text messages.
+Bu google xola bot. Bu botdan gaplaringizni tarjima qilishda foydalaning.
+Inglizcha so'zlaringizni audio variantini izlang!!!
 """
 
 import logging
@@ -22,9 +22,8 @@ dp = Dispatcher(bot)
 
 @dp.message_handler(commands=['start', 'help'])
 async def send_welcome(message: types.Message):
-    """
-    This handler will be called when user sends `/start` or `/help` command
-    """
+
+
     await message.reply("Hi!\nI'm EchoBot!\nPowered by aiogram.")
 
 
